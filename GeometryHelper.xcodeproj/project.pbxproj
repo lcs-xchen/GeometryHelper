@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		DF706D612B570BC3004F0CA9 /* GeometryHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF706D602B570BC3004F0CA9 /* GeometryHelperApp.swift */; };
-		DF706D632B570BC3004F0CA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF706D622B570BC3004F0CA9 /* ContentView.swift */; };
 		DF706D652B570BC7004F0CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF706D642B570BC7004F0CA9 /* Assets.xcassets */; };
 		DF706D682B570BC7004F0CA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF706D672B570BC7004F0CA9 /* Preview Assets.xcassets */; };
+		DF706D712B570C6D004F0CA9 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF706D702B570C6D004F0CA9 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF706D5D2B570BC3004F0CA9 /* GeometryHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF706D602B570BC3004F0CA9 /* GeometryHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryHelperApp.swift; sourceTree = "<group>"; };
-		DF706D622B570BC3004F0CA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF706D642B570BC7004F0CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF706D672B570BC7004F0CA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF706D702B570C6D004F0CA9 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				DF706D602B570BC3004F0CA9 /* GeometryHelperApp.swift */,
-				DF706D622B570BC3004F0CA9 /* ContentView.swift */,
+				DF706D6F2B570C2A004F0CA9 /* Model */,
+				DF706D6E2B570C0B004F0CA9 /* Views */,
 				DF706D642B570BC7004F0CA9 /* Assets.xcassets */,
 				DF706D662B570BC7004F0CA9 /* Preview Content */,
 			);
@@ -65,6 +66,21 @@
 				DF706D672B570BC7004F0CA9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF706D6E2B570C0B004F0CA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF706D702B570C6D004F0CA9 /* CircleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF706D6F2B570C2A004F0CA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF706D632B570BC3004F0CA9 /* ContentView.swift in Sources */,
+				DF706D712B570C6D004F0CA9 /* CircleView.swift in Sources */,
 				DF706D612B570BC3004F0CA9 /* GeometryHelperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
