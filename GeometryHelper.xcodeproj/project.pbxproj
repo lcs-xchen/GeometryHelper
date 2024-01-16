@@ -11,6 +11,7 @@
 		DF706D652B570BC7004F0CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF706D642B570BC7004F0CA9 /* Assets.xcassets */; };
 		DF706D682B570BC7004F0CA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF706D672B570BC7004F0CA9 /* Preview Assets.xcassets */; };
 		DF706D712B570C6D004F0CA9 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF706D702B570C6D004F0CA9 /* CircleView.swift */; };
+		DF706D732B5712DD004F0CA9 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF706D722B5712DD004F0CA9 /* Circle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DF706D642B570BC7004F0CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF706D672B570BC7004F0CA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DF706D702B570C6D004F0CA9 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		DF706D722B5712DD004F0CA9 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		DF706D6F2B570C2A004F0CA9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DF706D722B5712DD004F0CA9 /* Circle.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			files = (
 				DF706D712B570C6D004F0CA9 /* CircleView.swift in Sources */,
 				DF706D612B570BC3004F0CA9 /* GeometryHelperApp.swift in Sources */,
+				DF706D732B5712DD004F0CA9 /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
